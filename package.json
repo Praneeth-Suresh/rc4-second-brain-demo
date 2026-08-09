@@ -1,0 +1,11 @@
+{
+  "name": "rc4-second-brain-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test",
+    "start": "python3 -m http.server 4173"
+  }
+}
