@@ -16,10 +16,10 @@ Then open `http://localhost:4173`. Any static HTTP server can serve this directo
 ## Suggested walkthrough
 
 1. On **Ask**, choose “Plan Demo Event Aurora.”
-2. Read the Leadership decision brief, coverage basis, review-due warning, and draft warning.
-3. Open a citation and use **Back to unchanged answer**.
-4. Use the four **Demo scenarios** controls to show review-due, unsupported, prohibited-data, and withdrawn-source handling.
-5. Inspect **Sources**, then **Governance** and **About this demo**.
+2. Read the decision brief, source coverage, review-due warning, and draft warning.
+3. Open a citation and use **Back to answer**.
+4. Inspect **Sources**, then **Governance**.
+5. Use **Pitch deck** for the stakeholder narrative.
 
 ## Deliberate limitations
 
@@ -29,3 +29,4 @@ Then open `http://localhost:4173`. Any static HTTP server can serve this directo
 - No result is an operational instruction or approval. A real pilot would require separately documented platform confirmation, owner approvals, operating procedures, measures, and stop authority.
 
 See [TRACEABILITY.md](TRACEABILITY.md) for implementation evidence and remaining presentation gates.
+See [pitch.md](pitch.md) for the visual pitch narrative and its Playwright screenshots.
