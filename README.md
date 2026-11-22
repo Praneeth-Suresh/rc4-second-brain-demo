@@ -2,16 +2,21 @@
 
 This is a dependency-free, read-only front-end demonstration of a proposed evidence-review workflow. It uses a small local fictional corpus only. It is not connected to NUS AI Know, real RC4 records, credentials, telemetry, or any external service.
 
+## Preview the demo
+
+[View a screenshot of the decision brief](screenshots/pitch-ask-answer.png) or [read the illustrated pitch](pitch.md). The screenshot shows a fictional answer with citations, a draft warning, and a source-review warning.
+
 ## Run locally
 
-Node/npm are used only for deterministic tests; no package installation is required.
+No package installation or API key is needed. With Python 3, serve the repository from its root:
 
-```bash
-npm test
-npm start
+```sh
+python3 -m http.server 4173
 ```
 
-Then open `http://localhost:4173`. Any static HTTP server can serve this directory; ES modules will not work from a `file://` URL in all browsers.
+Then open [http://localhost:4173](http://localhost:4173) in a browser. Use a local HTTP server rather than opening `index.html` from the filesystem, because the demo uses browser ES modules. Once the page loads, use **Ask** to start the walkthrough.
+
+To run the deterministic tests separately, use `npm test` with Node.js and npm installed.
 
 ## Suggested walkthrough
 
